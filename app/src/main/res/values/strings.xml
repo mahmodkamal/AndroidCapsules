@@ -19,6 +19,7 @@
     <string name="settings">Settings</string>
     <string name="home">Home</string>
     <string name="deeplink">Deep Link</string>
+    <string name="paging">Paging</string>
 
     <!-- Screen strings -->
     <string name="step_one">Step One</string>
@@ -31,4 +32,14 @@
     <string name="next_step_button">Navigate next step</string>
     <string name="finish_button">Finish Flow</string>
     <string name="send_deep_link_notification_button">Send deep link notification</string>
+
+
+    <!-- paging screen   -->
+
+    <string name="loading">Loading</string>
+    <string name="language">Language: %s</string>
+    <string name="search_hint">GitHub Repository</string>
+    <string name="no_results">No results 😓</string>
+    <string name="unknown">\?</string>
+    <string name="retry">Retry</string>
 </resources>

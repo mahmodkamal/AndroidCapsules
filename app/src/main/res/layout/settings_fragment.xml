@@ -16,7 +16,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.codelabs.navigation.SettingsFragment">
+    tools:context="com.example.android.codelabs.navigation.com.demo.android.codelabs.navigation.SettingsFragment">
 
     <TextView
         android:id="@+id/text"

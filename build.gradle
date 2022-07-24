@@ -17,7 +17,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
-
+    apply from: rootProject.file('gradle/configuration.gradle')
     ext {
         kotlinVersion = '1.6.10'
         appCompatVersion = "1.4.0"
@@ -25,7 +25,21 @@ buildscript {
         materialVersion = "1.4.0"
         navigationVersion = "2.3.5"
         constraintLayoutVersion = "2.1.2"
+        compileSdkVersion = 31
+        minSdkVersion = 15
+        targetSdkVersion = 31
+        supportLibVersion = '1.4.0'
+        coreVersion = '1.7.0'
+        recyclerViewVersion = '1.2.1'
+        lifecycleVersion = '2.4.0'
+        roomVersion = '2.4.0-alpha03'
+        pagingVersion = '3.1.0'
+        retrofitVersion = '2.9.0'
+        okhttpLoggingInterceptorVersion = '4.9.0'
+        coroutines = '1.5.2'
+
     }
+
 
     repositories {
         google()
@@ -35,9 +49,19 @@ buildscript {
         classpath 'com.android.tools.build:gradle:7.0.4'
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
-
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+        // Code coverage
+        // Library documentation
+        classpath config.build.gradle.androidMaven
+        // Code coverage
+        classpath config.build.gradle.jacoco
+        // Library documentation
+        classpath config.build.gradle.dokka
+        classpath 'com.google.gms:google-services:4.3.10'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.7.0'
+        classpath 'com.google.firebase:perf-plugin:1.4.1'
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.38.1")
     }
 }
 

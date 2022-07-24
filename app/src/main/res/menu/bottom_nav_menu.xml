@@ -17,6 +17,10 @@
         android:icon="@drawable/ic_home"
         android:title="@string/home" />
     <item
+        android:id="@id/paging_dest"
+        android:icon="@drawable/ic_baseline_feed_24"
+        android:title="@string/paging" />
+    <item
         android:id="@id/deeplink_dest"
         android:icon="@drawable/ic_android"
         android:title="@string/deeplink" />
