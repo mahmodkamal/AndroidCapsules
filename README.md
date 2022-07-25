@@ -1,23 +1,6 @@
-# Android Navigation codelab
+# Android Demo App
 
-Content: https://codelabs.developers.google.com/codelabs/android-navigation/
 
-License
--------
-
-Copyright 2018 The Android Open Source Project, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+- This app is for education purpose only for demonstrating best practices in android architecture components .
+- I've used google code-labs here as a standard reference .
+- Here is the full road map i've created as a kick start in android development: https://glacier-planet-2a0.notion.site/Introduction-To-Android-4f0450ca169c4233bcd4d56b9c86a535
